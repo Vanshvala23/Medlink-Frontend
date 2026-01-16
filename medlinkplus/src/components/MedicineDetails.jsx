@@ -12,7 +12,7 @@ function MedicineDetails() {
     const fetchDetails = async () => {
       try {
         setLoading(true);
-        const response = await axios.get(`https://med-link-backend-7c2dpylhr-vanshvala23s-projects.vercel.app/api/medicines/${id}/online`);
+        const response = await axios.get(`https://med-link-backend.vercel.app/api/medicines/${id}/online`);
         setDetails(response.data);
         setLoading(false);
       } catch (err) {
