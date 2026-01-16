@@ -36,10 +36,10 @@ function App() {
     <ChatbotProvider>
       <CartProvider>
       {/* Simple navigation bar for Support */}
-      <nav className="w-full bg-gray-100 py-2 px-4 flex gap-4">
+      {/* <nav className="w-full bg-gray-100 py-2 px-4 flex gap-4">
         <Link to="/" className="text-[#1c7856] font-bold">Home</Link>
         <Link to="/support" className="text-[#1c7856] font-bold">Support</Link>
-      </nav>
+      </nav> */}
 
       <ToastContainer/>
       <Routes>
