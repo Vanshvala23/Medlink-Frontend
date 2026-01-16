@@ -110,7 +110,7 @@ function Medicines() {
       try {
         setLoading(true);
         console.log('Fetching medicines from API...');
-        const { data } = await axios.get(`http://localhost:4000/api/medicines?page=${page}&limit=${ITEMS_PER_PAGE}`);
+        const { data } = await axios.get(`https://med-link-backend.vercel.app/api/medicines?page=${page}&limit=${ITEMS_PER_PAGE}`);
         console.log('API Response:', data);
         
         if (data && data.data && data.data.length > 0) {
