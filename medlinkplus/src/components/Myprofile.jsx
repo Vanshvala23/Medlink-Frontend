@@ -1,5 +1,5 @@
 import React, { useState, useContext } from "react";
-import { assets } from "../../../../assets/assets/assets_frontend/assets";
+import { assets } from "../assets/assets/assets/assets_frontend/assets";
 import { AppContext } from "../context/AppContext";
 import axios from "axios";
 import { toast } from "react-toastify";
